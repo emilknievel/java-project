@@ -1,6 +1,13 @@
 package se.liu.ida.emiva760.tddc69.projekt;
 
-// Contains all things that are common for all game objects
+/**
+ * =====================
+ * File: GameObject.java
+ * =====================
+ *
+ * Contains what's common for all objects in the game.
+ */
+
 public class GameObject {
     private int YCoord;
     private int XCoord;

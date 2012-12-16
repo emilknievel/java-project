@@ -1,6 +1,14 @@
 package se.liu.ida.emiva760.tddc69.projekt;
 
-// The moving objects
+/**
+ * =======================
+ * File: MovingObject.java
+ * =======================
+ *
+ * The moving objects.
+ * I'm at the moment considerig using vectors to control the movement.
+ */
+
 public class MovingObject extends GameObject {
     private int YSpeed;
     private int XSpeed;
