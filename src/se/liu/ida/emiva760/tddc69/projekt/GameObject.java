@@ -6,13 +6,13 @@ public class GameObject {
     private int XCoord;
     private int YSize;
     private int XSize;
-    private char ObjectType; //b = brick, m = moving (ball, paddle)
+    private char Color;
 
-    public GameObject(int YCoord, int XCoord, int YSize, int XSize, char ObjectType) {
+    public GameObject(int YCoord, int XCoord, int YSize, int XSize, char Color) {
         this.YCoord = YCoord;
         this.XCoord = XCoord;
         this.YSize = YSize;
         this.XSize = XSize;
-        this.ObjectType = ObjectType;
+        this.Color = Color;
     }
 }

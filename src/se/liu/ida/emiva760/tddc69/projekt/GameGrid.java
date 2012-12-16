@@ -10,13 +10,7 @@ public class GameGrid {
     private final int COLUMNS = 50;
 
     // create the play area
-    private SquareColor[][] grid = new SquareColor[30][50];
-
-
-    public GameGrid() {
-    	this.ROWS = ROWS;
-    	this.COLUMNS = COLUMNS;
-    }
+    private SquareColor[][] grid = new SquareColor[ROWS][COLUMNS];
 
     public int getRows() {
     	return ROWS;
@@ -24,5 +18,4 @@ public class GameGrid {
     public int getColumns() {
     	return COLUMNS;
     }
-
 }
