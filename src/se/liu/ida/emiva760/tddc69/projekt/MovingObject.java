@@ -6,16 +6,16 @@ package se.liu.ida.emiva760.tddc69.projekt;
  * =======================
  *
  * The moving objects.
- * I'm at the moment considerig using vectors to control the movement.
+ * I'm at the moment considering using vectors to control the movement.
  */
 
 public class MovingObject extends GameObject {
-    private int YSpeed;
-    private int XSpeed;
+    private float YVel;
+    private float XVel;
 
-    public MovingObject(int YCoord, int XCoord, int YSize, int XSize, int YSpeed, int XSpeed, char Color) {
+    public MovingObject(int YCoord, int XCoord, int YSize, int XSize, float YVel, float XVel, char Color) {
         super(YCoord, XCoord, YSize, XSize, Color);
-        this.YSpeed = YSpeed;
-        this.XSpeed = XSpeed;
+        this.YVel = YVel;
+        this.XVel = XVel;
     }
 }

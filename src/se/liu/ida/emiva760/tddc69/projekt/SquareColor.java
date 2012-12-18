@@ -11,7 +11,7 @@ package se.liu.ida.emiva760.tddc69.projekt;
  * require 3 hits instead of one).
  *
  * The player's paddle is white, the exploding blocks are yellow and the rest
- * of the blocks use random colours varying between the ones that are left
+ * of the blocks use random colors varying between the ones that are left
  * over.
  */
 
