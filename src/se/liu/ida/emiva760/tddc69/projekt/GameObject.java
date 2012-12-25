@@ -13,9 +13,9 @@ public class GameObject {
     private int XCoord;
     private int YSize;
     private int XSize;
-    private char Color;
+    private SquareColor Color;
 
-    public GameObject(int YCoord, int XCoord, int YSize, int XSize, char Color) {
+    public GameObject(int YCoord, int XCoord, int YSize, int XSize, SquareColor Color) {
         this.YCoord = YCoord;
         this.XCoord = XCoord;
         this.YSize = YSize;

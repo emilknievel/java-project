@@ -1,11 +1,15 @@
 package se.liu.ida.emiva760.tddc69.projekt;
 
 /**
- * Created with IntelliJ IDEA.
- * User: emil
- * Date: 12/22/12
- * Time: 4:25 PM
- * To change this template use File | Settings | File Templates.
+ * =================
+ * File: Paddle.java
+ * =================
+ *
+ * The paddle that the player controls.
  */
-public class Paddle {
+public class Paddle extends MovingObject {
+
+    public Paddle(int YCoord, int XCoord, int YSize, int XSize) {
+        super(YCoord, XCoord, YSize, XSize, 0, 0, SquareColor.WHITE);
+    }
 }

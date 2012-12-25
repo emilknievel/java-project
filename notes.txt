@@ -1,6 +1,17 @@
+To do:
+=======
+
 * The different bricks are all the same size horizontally and vertically.
   The only thing that needs to be randomized is the type (color).
 
 * The bricks will be placed at the top 6 rows.
 
 * The paddle should be placed at the bottom-center of the game.
+
+* 
+
+
+Done:
+======
+
+* Create base classes.

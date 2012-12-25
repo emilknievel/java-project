@@ -10,7 +10,7 @@ package se.liu.ida.emiva760.tddc69.projekt;
  */
 
 public class Brick extends GameObject {
-    public Brick(int YCoord, int XCoord, int YSize, int XSize, char Color) {
+    public Brick(int YCoord, int XCoord, int YSize, int XSize, SquareColor Color) {
         super(YCoord, XCoord, YSize, XSize, Color);
     }
 

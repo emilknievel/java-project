@@ -13,9 +13,17 @@ public class MovingObject extends GameObject {
     private float YVel;
     private float XVel;
 
-    public MovingObject(int YCoord, int XCoord, int YSize, int XSize, float YVel, float XVel, char Color) {
+    public MovingObject(int YCoord, int XCoord, int YSize, int XSize, float YVel, float XVel, SquareColor Color) {
         super(YCoord, XCoord, YSize, XSize, Color);
         this.YVel = YVel;
+        this.XVel = XVel;
+    }
+
+    public void setYVel(float YVel) {
+        this.YVel = YVel;
+    }
+
+    public void setXVel(float XVel) {
         this.XVel = XVel;
     }
 }
