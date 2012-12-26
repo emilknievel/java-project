@@ -9,17 +9,25 @@ package se.liu.ida.emiva760.tddc69.projekt;
  */
 
 public class GameObject {
-    private int YCoord;
-    private int XCoord;
+    private float YCoord;
+    private float XCoord;
     private int YSize;
     private int XSize;
     private SquareColor Color;
 
-    public GameObject(int YCoord, int XCoord, int YSize, int XSize, SquareColor Color) {
+    public GameObject(float YCoord, float XCoord, int YSize, int XSize, SquareColor Color) {
         this.YCoord = YCoord;
         this.XCoord = XCoord;
         this.YSize = YSize;
         this.XSize = XSize;
         this.Color = Color;
+    }
+
+    public float getYCoord() {
+        return YCoord;
+    }
+
+    public float getXCoord() {
+        return XCoord;
     }
 }

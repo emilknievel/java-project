@@ -15,3 +15,4 @@ Done:
 ======
 
 * Create base classes.
+* Coordinates seem to be working out.
