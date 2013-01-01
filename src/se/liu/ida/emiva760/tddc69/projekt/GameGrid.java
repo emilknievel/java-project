@@ -17,11 +17,18 @@ public class GameGrid {
 
     // create the play area
     private SquareColor[][] grid = new SquareColor[ROWS][COLUMNS];
+    Paddle paddle = new Paddle(ROWS, COLUMNS/2, 2, 5);
+    Ball ball = new Ball(ROWS-3,COLUMNS/2, 1,1,0,0,SquareColor.RED);
 
     public int getRows() {
     	return ROWS;
     }
     public int getColumns() {
     	return COLUMNS;
+    }
+
+    // Updates the game
+    public void tick() {
+        ball.update();
     }
 }

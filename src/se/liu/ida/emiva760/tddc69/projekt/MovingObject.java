@@ -35,4 +35,9 @@ public class MovingObject extends GameObject {
     public float getXVel() {
         return XVel;
     }
+
+    public void update() {
+        this.setYCoord(this.getYCoord() + this.getYVel());
+        this.setXCoord(this.getXCoord() + this.getXVel());
+    }
 }

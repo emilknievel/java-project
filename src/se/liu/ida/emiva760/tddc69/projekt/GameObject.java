@@ -30,4 +30,12 @@ public class GameObject {
     public float getXCoord() {
         return XCoord;
     }
+
+    public void setYCoord(float YCoord) {
+        this.YCoord = YCoord;
+    }
+
+    public void setXCoord(float XCoord) {
+        this.XCoord = XCoord;
+    }
 }
