@@ -12,7 +12,8 @@ package se.liu.ida.emiva760.tddc69.projekt;
 public class GameTest {
     public static void main(String[] args) {
 	    // Test the coordinates
-        GameGrid area = new GameGrid();
+        final GameGrid area = new GameGrid();
+        final GameFrame gameFrame = new GameFrame(area);
         /*
 	    Paddle paddle = new Paddle(area.getRows(), area.getColumns()/2, 2, 5);
         Brick brick = new Brick(0,0,3,6,SquareColor.YELLOW);
