@@ -12,14 +12,14 @@ import java.util.ArrayList;
  */
 
 public class GameGrid {
-    private final int ROWS = 30;
-    private final int COLUMNS = 50;
+    private int rows = 30;
+    private int columns = 50;
     private final ArrayList<GridListener> GridListenerList = new ArrayList<GridListener>();
 
     // create the play area
-    private SquareColor[][] grid = new SquareColor[ROWS][COLUMNS];
-    Paddle paddle = new Paddle(ROWS, COLUMNS/2, 2, 5);
-    Ball ball = new Ball(ROWS-3,COLUMNS/2, 1,1,0,0,SquareColor.RED);
+    private SquareColor[][] grid = new SquareColor[rows][columns];
+    Paddle paddle = new Paddle(rows-3, columns/2, 2, 5);
+    Ball ball = new Ball(rows-5,columns/2, 1,1,-1,0,SquareColor.RED);
 
     /***************************************************************
     Place function to create the blocks here:
@@ -27,11 +27,16 @@ public class GameGrid {
     placeBlocks(COLUMNS);
      ***************************************************************/
 
+    public GameGrid(int rows, int columns) {
+        this.rows = rows;
+        this.columns = columns;
+    }
+
     public int getRows() {
-    	return ROWS;
+    	return rows;
     }
     public int getColumns() {
-    	return COLUMNS;
+    	return columns;
     }
 
     public SquareColor getSquareColor(int row, int column) {
@@ -41,10 +46,22 @@ public class GameGrid {
     // Updates the game
     public void tick() {
         ball.update();
+        notifyListeners();
     }
 
     public void addGridListener(GridListener gl) {
         GridListenerList.add(gl);
+    }
+
+    private void notifyListeners() {
+        for (GridListener gl : GridListenerList) {
+            gl.gridChanged();
+        }
+    }
+
+    // Game over if the ball hits the bottom of the screen
+    public boolean failState() {
+        return ball.getYCoord() == getRows();
     }
 
     /*

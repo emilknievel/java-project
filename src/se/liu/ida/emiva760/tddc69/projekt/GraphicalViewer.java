@@ -11,8 +11,8 @@ import java.awt.*;
  * Handles the graphics
  */
 public class GraphicalViewer extends JComponent implements GridListener {
-    private static final int ROWS = 576;
-    private static final int COLUMNS = 1024;
+    private static final int ROWS = 540;
+    private static final int COLUMNS = 960;
     private static final int BLOCKHEIGHT = ROWS / 20;
     private static final int BLOCKWIDTH = COLUMNS / 20;
 
@@ -34,7 +34,7 @@ public class GraphicalViewer extends JComponent implements GridListener {
     }
 
     public void paintBackground(final Graphics2D g2) {
-        g2.setColor(Color.BLACK);
+        g2.setColor(Color.WHITE);
         g2.fill(new Rectangle(0,0,WIDTH,HEIGHT));
     }
 
@@ -50,7 +50,7 @@ public class GraphicalViewer extends JComponent implements GridListener {
     }
 
     public Color convertToColor(SquareColor color) {
-        if (color == null) return Color.BLACK;
+        if (color == null) return Color.WHITE;
         else {
             switch (color) {
                 case BLUE:
@@ -60,7 +60,7 @@ public class GraphicalViewer extends JComponent implements GridListener {
                 case YELLOW:
                     return Color.YELLOW;
                 default:
-                    return Color.BLACK;
+                    return Color.WHITE;
             }
         }
     }

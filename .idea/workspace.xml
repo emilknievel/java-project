@@ -21,10 +21,10 @@
     <file path="/MovingObject.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1356970330717" ignored="false" />
     <file path="/Brick.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1356190615340" ignored="false" />
     <file path="/Dummy.txt" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1356443797703" ignored="false" />
-    <file path="/GameGrid.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1357223818397" ignored="false" />
+    <file path="/GameGrid.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1360575481871" ignored="false" />
     <file path="/SquareColor.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1355665409113" ignored="false" />
     <file path="/GameObject.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1356520141111" ignored="false" />
-    <file path="/GameTest.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1357223529422" ignored="false" />
+    <file path="/GameTest.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1360575158190" ignored="false" />
     <file path="/fragment.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1357041161184" ignored="false" />
     <file path="/Paddle.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1356517330509" ignored="false" />
     <file path="/Ball.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1357042234273" ignored="false" />
@@ -32,9 +32,13 @@
     <file path="/notes.txt" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1357046810957" ignored="false" />
     <file path="/a.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1356872428812" ignored="false" />
     <file path="/Graphical_Viewer.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1357046925525" ignored="false" />
-    <file path="/GraphicalViewer.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1357220259726" ignored="false" />
+    <file path="/GraphicalViewer.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1360574791843" ignored="false" />
     <file path="/GridListener.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1357154878342" ignored="false" />
     <file path="/GameFrame.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1357223427868" ignored="false" />
+    <file path="/usr/lib/jvm/java-1.7.0-openjdk-amd64/src.zip!/javax/swing/JMenu.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1358513248670" ignored="false" />
+    <file path="/usr/lib/jvm/java-1.7.0-openjdk-amd64/src.zip!/javax/swing/JFrame.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1358513248671" ignored="false" />
+    <file path="/usr/lib/jvm/java-1.7.0-openjdk-amd64/src.zip!/javax/swing/JMenuItem.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1358513248671" ignored="false" />
+    <file path="/usr/lib/jvm/java-1.7.0-openjdk-amd64/src.zip!/javax/swing/JOptionPane.java" changelist="3eb99eb0-b787-423a-b696-f5fecc9aa09d" time="1358513248671" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,21 +97,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="GameGrid.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameGrid.java">
+      <file leaf-file-name="GameFrame.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameFrame.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="27" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#412#426#0" expanded="true" />
-              </folding>
+            <state line="12" column="13" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Ball.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Ball.java">
+      <file leaf-file-name="GameGrid.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameGrid.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+            <state line="21" column="48" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MovingObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/MovingObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="11" column="13" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GameObject.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameObject.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="27" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -116,7 +136,29 @@
       <file leaf-file-name="GameTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="56" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+            <state line="18" column="56" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#516#1549#0" expanded="true" />
+                <element signature="e#1538#1539#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Ball.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Ball.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GraphicalViewer.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GraphicalViewer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="58" column="37" selection-start="1732" selection-end="1732" vertical-scroll-proportion="0.708134">
               <folding />
             </state>
           </provider>
@@ -125,7 +167,7 @@
       <file leaf-file-name="Paddle.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Paddle.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -134,49 +176,7 @@
       <file leaf-file-name="Power.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Power.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="63" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="notes.txt" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/notes.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="33" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphicalViewer.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GraphicalViewer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="13" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GameFrame.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameFrame.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#963#1395#0" expanded="true" />
-                <element signature="e#1384#1385#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GridListener.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GridListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+            <state line="9" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -185,7 +185,7 @@
       <file leaf-file-name="SquareColor.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/SquareColor.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
+            <state line="16" column="12" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -213,7 +213,6 @@
       <list>
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameBoard.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/SquareColor" />
-        <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/SquareColor.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Brick.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Paddle.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameObject.java" />
@@ -223,17 +222,19 @@
         <option value="$PROJECT_DIR$/notes.txt" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Graphical_Viewer.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GridListener.java" />
-        <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GraphicalViewer.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameFrame.java" />
-        <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameTest.java" />
+        <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/SquareColor.java" />
+        <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GraphicalViewer.java" />
         <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameGrid.java" />
+        <option value="$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="24" />
-    <option name="width" value="1366" />
-    <option name="height" value="744" />
+    <option name="x" value="1358" />
+    <option name="y" value="-141" />
+    <option name="width" value="1296" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -261,6 +262,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -299,7 +301,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -312,7 +313,7 @@
     <property name="recentsLimit" value="5" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lab2/src/se/liu/ida/emiva760/tddc69/lab2/Poly.java" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -511,12 +512,13 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="24" width="1366" height="744" extended-state="6" />
-    <editor active="false" />
+    <frame x="1358" y="-141" width="1296" height="1040" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32387313" sideWeight="0.4969651" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32842582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32495812" sideWeight="0.49772382" order="10" side_tool="true" content_ui="tabs" />
@@ -527,11 +529,10 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15454546" sideWeight="0.6736" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3264" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16531605" sideWeight="0.6761042" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3238958" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32888147" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -615,102 +616,98 @@
         <state line="8" column="27" selection-start="240" selection-end="240" vertical-scroll-proportion="0.22338569" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Brick.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="4" selection-start="470" selection-end="470" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameObject.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="41" column="0" selection-start="868" selection-end="868" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Power.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="63" selection-start="360" selection-end="360" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/SquareColor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="0" selection-start="552" selection-end="552" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/notes.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="33" selection-start="355" selection-end="355" vertical-scroll-proportion="0.0">
+        <state line="18" column="0" selection-start="356" selection-end="356" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/MovingObject.java">
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Brick.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="5" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Paddle.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="1" selection-start="346" selection-end="346" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Ball.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+        <state line="11" column="13" selection-start="226" selection-end="226" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GridListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="199" selection-end="199" vertical-scroll-proportion="0.0">
+        <state line="7" column="17" selection-start="151" selection-end="151" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GraphicalViewer.java">
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Paddle.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="13" selection-start="1442" selection-end="1442" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="9" column="13" selection-start="172" selection-end="172" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameFrame.java">
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Power.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="51" column="0" selection-start="1398" selection-end="1398" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#963#1395#0" expanded="true" />
-            <element signature="e#1384#1385#0" expanded="true" />
-          </folding>
+        <state line="9" column="13" selection-start="143" selection-end="143" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameTest.java">
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/SquareColor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="56" selection-start="417" selection-end="417" vertical-scroll-proportion="0.0">
+        <state line="16" column="12" selection-start="489" selection-end="489" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="27" selection-start="523" selection-end="523" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/Ball.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="138" selection-end="138" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/MovingObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="13" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameGrid.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="27" selection-start="458" selection-end="458" vertical-scroll-proportion="0.0">
+        <state line="21" column="48" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="56" selection-start="481" selection-end="481" vertical-scroll-proportion="0.0">
           <folding>
-            <element signature="e#412#426#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#516#1549#0" expanded="true" />
+            <element signature="e#1538#1539#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GameFrame.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="253" selection-end="253" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/se/liu/ida/emiva760/tddc69/projekt/GraphicalViewer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="58" column="37" selection-start="1732" selection-end="1732" vertical-scroll-proportion="0.708134">
+          <folding />
         </state>
       </provider>
     </entry>

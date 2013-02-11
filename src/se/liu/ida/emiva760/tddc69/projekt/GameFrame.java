@@ -15,7 +15,7 @@ public class GameFrame extends JFrame {
     private GraphicalViewer graphics;
 
     public GameFrame(final GameGrid game) {
-        super("Game");
+        super("Breakout");
         this.game = game;
 
         createGUI();

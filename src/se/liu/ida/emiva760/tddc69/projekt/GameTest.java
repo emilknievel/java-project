@@ -1,5 +1,8 @@
 package se.liu.ida.emiva760.tddc69.projekt;
 
+import javax.swing.*;
+import java.awt.event.ActionEvent;
+
 /**
  * ===================
  * File: GameTest.java
@@ -12,8 +15,38 @@ package se.liu.ida.emiva760.tddc69.projekt;
 public class GameTest {
     public static void main(String[] args) {
 	    // Test the coordinates
-        final GameGrid area = new GameGrid();
+        final GameGrid area = new GameGrid(30, 50);
         final GameFrame gameFrame = new GameFrame(area);
+
+        final Action doOneStep = new AbstractAction() {
+            public void actionPerformed(ActionEvent e) {
+                // Gå ett steg i spelet
+                if (!area.failState()) {
+                    area.tick();
+
+                    System.out.println("----------Paddle coords----------");
+                    System.out.println("X: " + area.paddle.getXCoord());
+                    System.out.println("Y: " + area.paddle.getYCoord());
+                    System.out.println("XVel: " + area.paddle.getXVel());
+                    System.out.println("YVel: " + area.paddle.getYVel());
+
+                    System.out.println("----------Ball coords------------");
+                    System.out.println("X: " + area.ball.getXCoord());
+                    System.out.println("Y: " + area.ball.getYCoord());
+                    System.out.println("XVel: " + area.ball.getXVel());
+                    System.out.println("YVel: " + area.ball.getYVel());
+
+                } else {
+                    System.exit(0);
+                }
+            }
+        };
+
+        final Timer clockTimer = new Timer(300, doOneStep);
+        clockTimer.setCoalesce(true);
+        clockTimer.start();
+
+
         /*
 	    Paddle paddle = new Paddle(area.getRows(), area.getColumns()/2, 2, 5);
         Brick brick = new Brick(0,0,3,6,SquareColor.YELLOW);
@@ -21,12 +54,13 @@ public class GameTest {
         Power power = new Power(area.getRows()/2, area.getColumns()/2, 2,2,0,0,SquareColor.BLUE);
         */
 
-
+        /*
         System.out.println("----------Paddle coords----------");
         System.out.println("X: " + area.paddle.getXCoord());
         System.out.println("Y: " + area.paddle.getYCoord());
         System.out.println("XVel: " + area.paddle.getXVel());
         System.out.println("YVel: " + area.paddle.getYVel());
+        */
 
         /*
         System.out.println("----------Brick coords-----------");
@@ -34,11 +68,13 @@ public class GameTest {
         System.out.println("Y: " + brick.getYCoord());
         */
 
+        /*
         System.out.println("----------Ball coords------------");
         System.out.println("X: " + area.ball.getXCoord());
         System.out.println("Y: " + area.ball.getYCoord());
         System.out.println("XVel: " + area.ball.getXVel());
         System.out.println("YVel: " + area.ball.getYVel());
+        */
 
         /*
         System.out.println("----------Power coords-----------");
@@ -49,7 +85,7 @@ public class GameTest {
         */
 	
 	    // Test the drawing methods
-	
+
 	
         // Test the physics
 
