@@ -1,0 +1,63 @@
+Fixa en MindMap till alla klasser och funktioner så att man får en bra översikt och då lättare kan dela upp problemet i småproblem.
+   Så pappersblad, som var och en innehåller en funktion är en bra idé.
+
+?????????
+Klass
+*funktion
+?????????
+
+-------------------
+Existerande klasser
+-------------------
+
+Ball
+
+Brick
+
+GameFrame
+
+GameGrid
+
+GameObject
+
+GameTest
+
+GraphicalViewer
+
+GridListener
+
+MovingObject
+
+Paddle
+
+Power
+
+SquareColor
+
+----------------------------------------------------------
+Vilka funktioner bör finnas?
+----------------------------
+
+__GameObject__ skapar ett grundobjekt som har egenskaper gemensamma för alla objekt i spelet.
+
+Denna klass bör ha funktioner som:
+      *bestämmer var i spelet objektet befinner sig, dvs anger dess koordinater.
+      *bestämmer objektets storlek, dvs längden i x- respektive y-led.
+      *bestämmer vilken färg objektet ska ha.
+
+__MovingObject__ bygger på GameObject men har funktioner som ger objektet även följande funktioner:
+		 *bestämmer hur snabbt objektet rör sig.
+		 *bestämmer i vilken riktning objektet rör sig, och räknar ut vad hastigheten i y- respektive x-led bör vara (trigonometri baby!)
+
+__GameGrid__ är själva spelplanen, dvs det är här objekten placeras.
+
+Denna klass bör således ha följande funktioner:
+      *kolla om objekt kolliderar (bounding box bör fungera till detta ändamål).
+      *slumpa fram vilken färg brickorna i spelet bör ha.
+      *
+
+
+
+__Brick__ implementerar brickorna som ska placeras på ovansidan av spelplanen. Bör ha följande instruktioner:
+	  *beroende på färg, bestäm hur brickan reagerar vid träff
+
