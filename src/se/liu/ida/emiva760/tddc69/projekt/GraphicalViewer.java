@@ -23,10 +23,12 @@ public class GraphicalViewer extends JComponent implements GridListener {
         game.addGridListener(this);
     }
 
+    @Override
     public Dimension getPreferredSize() {
         return new Dimension(WIDTH,HEIGHT);
     }
 
+    @Override
     public void paintComponent(final Graphics g) {
         final Graphics2D g2 = (Graphics2D) g;
         paintBackground(g2);
@@ -40,7 +42,16 @@ public class GraphicalViewer extends JComponent implements GridListener {
 
     // =======================================================================
     // Tror att utritningsfelet ligger hos dessa två funktioner. Kolla!
+    
+    public void paintObjects(final Graphics2D g2) {
+        for (int i = 0; i < game.getRows(); i++) {
+            for (int j = 0; j < game.getColumns(); j++) {
+                if ()
+            }
+        }
+    }
 
+    /*
     public void paintObjects(final Graphics2D g2) {
         for (int i = 0; i < game.getRows(); i++) {
             for (int j = 0; j < game.getColumns(); j++) {
@@ -67,6 +78,8 @@ public class GraphicalViewer extends JComponent implements GridListener {
             }
         }
     }
+    */
+    
     // =======================================================================
 
     @Override
