@@ -19,6 +19,7 @@ public class GameTest {
         final GameFrame gameFrame = new GameFrame(area);
 
         final Action doOneStep = new AbstractAction() {
+            @Override
             public void actionPerformed(ActionEvent e) {
                 // Gå ett steg i spelet
                 if (!area.failState()) {
