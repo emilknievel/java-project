@@ -38,6 +38,9 @@ public class GraphicalViewer extends JComponent implements GridListener {
         g2.fill(new Rectangle(0,0,WIDTH,HEIGHT));
     }
 
+    // =======================================================================
+    // Tror att utritningsfelet ligger hos dessa två funktioner. Kolla!
+
     public void paintObjects(final Graphics2D g2) {
         for (int i = 0; i < game.getRows(); i++) {
             for (int j = 0; j < game.getColumns(); j++) {
@@ -64,6 +67,7 @@ public class GraphicalViewer extends JComponent implements GridListener {
             }
         }
     }
+    // =======================================================================
 
     @Override
     public void gridChanged() {
