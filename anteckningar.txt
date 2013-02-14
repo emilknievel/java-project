@@ -44,6 +44,7 @@ Denna klass bör ha funktioner som:
       *bestämmer var i spelet objektet befinner sig, dvs anger dess koordinater.
       *bestämmer objektets storlek, dvs längden i x- respektive y-led.
       *bestämmer vilken färg objektet ska ha.
+      *bestämmer om objektet kolliderar med ett annat objekt.
 
 __MovingObject__ bygger på GameObject men har funktioner som ger objektet även följande funktioner:
 		 *bestämmer hur snabbt objektet rör sig.
@@ -52,7 +53,7 @@ __MovingObject__ bygger på GameObject men har funktioner som ger objektet även
 __GameGrid__ är själva spelplanen, dvs det är här objekten placeras.
 
 Denna klass bör således ha följande funktioner:
-      *kolla om objekt kolliderar (bounding box bör fungera till detta ändamål).
+     ?? *kolla om objekt kolliderar (bounding box bör fungera till detta ändamål).
       *slumpa fram vilken färg brickorna i spelet bör ha.
       *
 

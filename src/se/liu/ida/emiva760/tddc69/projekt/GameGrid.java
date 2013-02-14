@@ -14,7 +14,7 @@ import java.util.ArrayList;
 public class GameGrid {
     private int rows = 30;
     private int columns = 50;
-    private final ArrayList<GridListener> GridListenerList = new ArrayList<GridListener>();
+    private final ArrayList<GridListener> GridListenerList;
 
     // create the play area
     private SquareColor[][] grid = new SquareColor[rows][columns];
@@ -28,6 +28,7 @@ public class GameGrid {
      ***************************************************************/
 
     public GameGrid(int rows, int columns) {
+        this.GridListenerList = new ArrayList<>();
         this.rows = rows;
         this.columns = columns;
     }
