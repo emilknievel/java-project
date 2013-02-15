@@ -13,7 +13,7 @@ import java.awt.event.ActionEvent;
  */
 
 public class GameTest {
-    public static void main(String[] args) {
+    public static void main(String[] args) {         
 	    // Test the coordinates
         final GameGrid area = new GameGrid(30, 50);
         final GameFrame gameFrame = new GameFrame(area);
@@ -47,6 +47,7 @@ public class GameTest {
         clockTimer.setCoalesce(true);
         clockTimer.start();
 
+        clockTimer.setLogTimers(true);
 
         /*
 	    Paddle paddle = new Paddle(area.getRows(), area.getColumns()/2, 2, 5);
