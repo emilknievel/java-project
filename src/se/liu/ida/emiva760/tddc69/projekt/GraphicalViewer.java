@@ -54,17 +54,47 @@ public class GraphicalViewer extends JComponent implements GridListener {
     }
     */
     
+    
+    
+    public void paintObjects(final Graphics2D g2) {
+        for (int i = 0; i < game.getRows(); i++) {
+            for (int j = 0; j < game.getColumns(); j++) {
+                // Check if there is a GameObject
+                if (game.staticObjExists(i, j)) {
+                    g2.setColor(convertToColor(game.getSquareColor(i, j)));
+                    int blockY = i*BLOCKHEIGHT;
+                    int blockX = j*BLOCKWIDTH;
+                    g2.fill(new Rectangle(blockX, blockY, BLOCKWIDTH, BLOCKHEIGHT));
+                }
+            }
+        }
+    }
+    
+    /*
+    public void paintMovingObjects(final Graphics2D g2) {
+        for (int i = 0; i < game.getRows(); i++) {
+            for (int j = 0; j < game.getColumns(); j++) {
+                // Check if there is a MovingObject
+            }
+        }
+    }
+    */
+    
     /*
     public void paintObjects(final Graphics2D g2) {
         for (int i = 0; i < game.getRows(); i++) {
             for (int j = 0; j < game.getColumns(); j++) {
-                g2.setColor(convertToColor(game.getSquareColor(i, j)));
-                int blockY = i*BLOCKHEIGHT;
-                int blockX = j*BLOCKWIDTH;
-                g2.fill(new Rectangle(blockX, blockY, BLOCKWIDTH, BLOCKHEIGHT));
+                if (game.getSquareColor(i, j) != null) {
+                    g2.setColor(convertToColor(game.getSquareColor(i, j)));
+                    int blockY = i*BLOCKHEIGHT;
+                    int blockX = j*BLOCKWIDTH;
+                    g2.fill(new Rectangle(blockX, blockY, BLOCKWIDTH, BLOCKHEIGHT));
+                }
             }
         }
     }
+    */
+    
 
     public Color convertToColor(SquareColor color) {
         if (color == null) return Color.WHITE;
@@ -76,12 +106,20 @@ public class GraphicalViewer extends JComponent implements GridListener {
                     return Color.RED;
                 case YELLOW:
                     return Color.YELLOW;
+                case GRAY:
+                    return Color.GRAY;
+                case GREEN:
+                    return Color.GREEN;
+                case ORANGE:
+                    return Color.ORANGE;
+                case BLACK:
+                    return Color.BLACK;
                 default:
                     return Color.WHITE;
             }
         }
     }
-    */
+    
     
     // =======================================================================
 

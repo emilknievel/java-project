@@ -19,7 +19,9 @@ public class GameGrid {
     // create the play area
     private SquareColor[][] grid = new SquareColor[rows][columns];
     Paddle paddle = new Paddle(rows-3, columns/2, 2, 5);
-    Ball ball = new Ball(rows-5,columns/2, 1,1,-1,0,SquareColor.RED);
+    Ball ball = new Ball(rows-20,columns/2, 1,1,1,0,SquareColor.RED);
+    
+    Brick brick = new Brick(5,5,10,10,SquareColor.BLUE);
 
     /***************************************************************
     Place function to create the blocks here:
@@ -60,9 +62,17 @@ public class GameGrid {
         }
     }
 
-    // Game over if the ball hits the bottom of the screen
+    /**
+     * Checks whether the player has died
+     * @return 
+     */
     public boolean failState() {
+        // It works!
         return ball.getYCoord() == getRows();
+    }
+    
+    public boolean staticObjExists(int row, int column) {
+        return grid[row][column] != null;
     }
 
     /*

@@ -14,4 +14,4 @@ package se.liu.ida.emiva760.tddc69.projekt;
  * of the blocks use random colors varying between the ones that are left
  * over.
  */
-public enum SquareColor { BLUE, RED, YELLOW, GRAY, GREEN, ORANGE, WHITE }
+public enum SquareColor { BLUE, RED, YELLOW, GRAY, GREEN, ORANGE, BLACK }

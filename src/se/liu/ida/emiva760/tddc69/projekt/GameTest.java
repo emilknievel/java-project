@@ -38,6 +38,7 @@ public class GameTest {
                     System.out.println("YVel: " + area.ball.getYVel());
 
                 } else {
+                    System.out.println("You failed!");
                     System.exit(0);
                 }
             }
