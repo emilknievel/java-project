@@ -23,12 +23,10 @@ public class GraphicalViewer extends JComponent implements GridListener {
         game.addGridListener(this);
     }
 
-    @Override
     public Dimension getPreferredSize() {
         return new Dimension(COLUMNS,ROWS);
     }
 
-    @Override
     public void paintComponent(final Graphics g) {
         final Graphics2D g2 = (Graphics2D) g;
         paintBackground(g2);
@@ -97,33 +95,32 @@ public class GraphicalViewer extends JComponent implements GridListener {
     
 
     public Color convertToColor(SquareColor color) {
-        if (color == null) return Color.WHITE;
-        else {
-            switch (color) {
-                case BLUE:
-                    return Color.BLUE;
-                case RED:
-                    return Color.RED;
-                case YELLOW:
-                    return Color.YELLOW;
-                case GRAY:
-                    return Color.GRAY;
-                case GREEN:
-                    return Color.GREEN;
-                case ORANGE:
-                    return Color.ORANGE;
-                case BLACK:
-                    return Color.BLACK;
-                default:
-                    return Color.WHITE;
-            }
+        if (color == null) {
+            return Color.WHITE;
+        }
+        switch (color) {
+            case BLUE:
+                return Color.BLUE;
+            case RED:
+                return Color.RED;
+            case YELLOW:
+                return Color.YELLOW;
+            case GRAY:
+                return Color.GRAY;
+            case GREEN:
+                return Color.GREEN;
+            case ORANGE:
+                return Color.ORANGE;
+            case BLACK:
+                return Color.BLACK;
+            default:
+                return Color.WHITE;
         }
     }
     
     
     // =======================================================================
 
-    @Override
     public void gridChanged() {
         this.repaint();
     }

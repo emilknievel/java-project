@@ -72,7 +72,7 @@ public class GameGrid {
     }
     
     public boolean staticObjExists(int row, int column) {
-        return grid[row][column] != null;
+        return getSquareColor(row, column) != null;
     }
 
     /*
